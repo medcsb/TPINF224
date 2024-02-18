@@ -7,7 +7,7 @@ JAVAC = javac
 JAVA = java
 
 # Source files
-SOURCES = MainFrame.java Client.java
+SOURCES = MainFrame.java
 
 # Class files
 CLASSES = $(SOURCES:.java=.class)
