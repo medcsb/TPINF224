@@ -64,6 +64,8 @@ run-${SERVER}: ${SERVER}
 run-${CLIENT}: ${CLIENT}
 	./${CLIENT}
 
+run: run-${SERVER} run-${CLIENT}
+
 ${CLIENT}: depend-${CLIENT} ${CLIENT_OBJETS}
 	${CXX} -o $@ ${CXXFLAGS} ${LDFLAGS} ${CLIENT_OBJETS} ${LDLIBS}
 
