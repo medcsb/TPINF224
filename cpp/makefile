@@ -47,7 +47,7 @@ LDFLAGS=
 # Librairies a utiliser
 # Example: LDLIBS = -L/usr/local/qt/lib -lqt
 #
-LDLIBS= -lpthread -lws2_32
+LDLIBS= -lpthread
 
 
 ##########################################

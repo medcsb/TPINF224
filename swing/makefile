@@ -21,7 +21,7 @@ default: $(CLASSES)
 
 # Run the MainFrame class
 run: $(CLASSES)
-	$(JAVA) MainFrame
+	$(JAVA) -cp .:.. swing.MainFrame
 
 # Clean up generated files
 clean:
