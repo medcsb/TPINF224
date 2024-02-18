@@ -17,12 +17,12 @@ default: $(CLASSES)
 
 # Compile Java source files
 %.class: %.java
-    $(JAVAC) $<
+	$(JAVAC) $<
 
 # Run the MainFrame class
 run: $(CLASSES)
-    $(JAVA) MainFrame
+	$(JAVA) MainFrame
 
 # Clean up generated files
 clean:
-    rm -f $(CLASSES)
+	rm -f $(CLASSES)
